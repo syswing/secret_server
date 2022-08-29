@@ -22,7 +22,13 @@ function LevelSystem:GetExp()
 	return self.current_exp
 end
 
-function LevelSystem:AddExp(exp){
+function LevelSystem:AddExp(exp)
 	return self.current_exp += exp
-}
+end
 
+function LevelSystem:OnUpdate(dt)
+
+end
+
+
+return LevelSystem

@@ -19,15 +19,5 @@ icon = "preview.tex"
 
 configuration_options =
 {
-    {
-        name = "show_oneself",
-        label = "Show Oneself",
-		hover = "Show your nickname of your character.",
-        options = 
-        {
-            {description = "Yes", data = true},
-            {description = "No", data = false},
-        }, 
-        default = true,
-    },
+ 
 }
