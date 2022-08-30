@@ -6,6 +6,10 @@ local LevelSystem = Class(function(self,inst)
 	self.inst = inst 
 	self.current_exp = 0
 	self.current_level = 0
+
+	local playerName = inst:GetDisplayName()
+	local label = inst.entity:AddLabel()
+	
 end)
 
 function LevelSystem:UpLevel()

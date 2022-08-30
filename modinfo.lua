@@ -1,23 +1,10 @@
 name = "react-dst"
 description = "demo"
 forumthread = ""
-author = "sword"
+author = "剑锋不再温柔"
 
-version =            "1.01"
-version_compatible = "1.00"
-
+version =            "0.0"
 api_version = 10
-dont_starve_compatible = false
-reign_of_giants_compatible = false
-dst_compatible = true
-all_clients_require_mod = false
 client_only_mod = false
-
-
-icon_atlas = "preview.xml"
-icon = "preview.tex"
-
-configuration_options =
-{
- 
-}
+all_clients_require_mod = false
+dst_compatible = true
