@@ -1,0 +1,22 @@
+<Atlas>
+	<Texture filename="QM_JISHOU.tex"/>
+	<Elements>
+		<Element name="goumaian.tex" u1="0.914516" u2="0.979032" v1="0.727636" v2="0.759585"/>
+		<Element name="item01.tex" u1="0.945968" u2="0.997581" v1="0.948882" v2="1.000000"/>
+		<Element name="jwjbaj.tex" u1="0.888710" u2="0.969355" v1="0.845847" v2="0.877796"/>
+		<Element name="qrgm.tex" u1="0.645968" u2="0.766935" v1="0.718051" v2="0.759585"/>
+		<Element name="neikuang.tex" u1="0.000000" u2="0.564516" v1="0.040735" v2="0.440096"/>
+		<Element name="xuanting.tex" u1="0.767742" u2="0.848387" v1="0.727636" v2="0.759585"/>
+		<Element name="goumaiye.tex" u1="0.645968" u2="0.887903" v1="0.760383" v2="1.000000"/>
+		<Element name="lkakwj.tex" u1="0.888710" u2="0.969355" v1="0.878594" v2="0.910543"/>
+		<Element name="ajhwah.tex" u1="0.888710" u2="0.969355" v1="0.780351" v2="0.812300"/>
+		<Element name="idle.tex" u1="0.888710" u2="0.969355" v1="0.813099" v2="0.845048"/>
+		<Element name="shurulan.tex" u1="0.711290" u2="0.832258" v1="0.693291" v2="0.717252"/>
+		<Element name="awsz.tex" u1="0.645968" u2="0.710484" v1="0.685304" v2="0.717252"/>
+		<Element name="item02.tex" u1="0.888710" u2="0.945161" v1="0.944089" v2="1.000000"/>
+		<Element name="shixiao.tex" u1="0.888710" u2="0.969355" v1="0.911342" v2="0.943291"/>
+		<Element name="ajaj.tex" u1="0.849194" u2="0.913710" v1="0.727636" v2="0.759585"/>
+		<Element name="tiaomubg.tex" u1="0.000000" u2="0.556452" v1="0.000000" v2="0.039936"/>
+		<Element name="zhuye.tex" u1="0.000000" u2="0.645161" v1="0.440895" v2="1.000000"/>
+	</Elements>
+</Atlas>

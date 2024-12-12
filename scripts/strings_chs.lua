@@ -1,0 +1,16 @@
+local a = {}
+a.WORLD = "世界"
+a.WHERE_TO_GO = "去向何处？"
+a.NOWHERE_TO_GO = "无处可去"
+a.HERE_IS = "这里是 "
+a.WORLD_FULL = "那个世界已经满人了"
+a.WORLD_INVALID = "该世界不可达"
+a.SELECT_WORLD = "选择世界"
+a.PLAYER_COUNT = "人数 "
+a.LEAVE_FOR = "前往"
+a.GOING_TO = "将前往 "
+a.I_AM_AT = "我在 "
+a.ALL = "全部"
+a.MIGRATOR_REQUIRED = "附近没有世界穿越通道"
+a.EXCEED_LIMIT_GOTO = "超出人数限制，分流至 "
+GLOBAL.STRINGS.MWP = a

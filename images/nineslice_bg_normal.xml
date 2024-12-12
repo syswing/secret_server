@@ -1,0 +1,14 @@
+<Atlas>
+    <Texture filename="nineslice_bg_normal.tex" />
+    <Elements>
+        <Element name="topleft.tex" u1="0.0078125" u2="0.0703125" v1="0.9296875" v2="0.9921875"/>
+        <Element name="top.tex" u1="0.0703125" u2="0.9296875" v1="0.9296875" v2="0.9921875"/>
+        <Element name="topright.tex" u1="0.9296875" u2="0.9921875" v1="0.9296875" v2="0.9921875"/>
+        <Element name="left.tex" u1="0.0078125" u2="0.0703125" v1="0.0703125" v2="0.9296875"/>
+        <Element name="center.tex" u1="0.0703125" u2="0.9296875" v1="0.0703125" v2="0.9296875"/>
+        <Element name="right.tex" u1="0.9296875" u2="0.9921875" v1="0.0703125" v2="0.9296875"/>
+        <Element name="bottomleft.tex" u1="0.0078125" u2="0.0703125" v1="0.0078125" v2="0.0703125"/>
+        <Element name="bottom.tex" u1="0.0703125" u2="0.9296875" v1="0.0078125" v2="0.0703125"/>
+        <Element name="bottomright.tex" u1="0.9296875" u2="0.9921875" v1="0.0078125" v2="0.0703125"/>
+    </Elements>
+</Atlas>
