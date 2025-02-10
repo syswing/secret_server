@@ -22,3 +22,5 @@ modimport("scripts/cs_dontdrop.lua")
 -- 权限
 
 modimport("scripts/cs_lock.lua") 
+modimport("scripts/cs_shop.lua") 
+

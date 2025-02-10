@@ -94,3 +94,21 @@ cs_lan_furance
 笔记
 
 tex 和 xml 更新后 需重启游戏才会重新载入assets
+
+
+-- print("OnBuild:")
+-- for k, v in pairs(prod.components) do
+--    print(k, v)
+--  end
+-- print("OnBuild:")
+-- print("----------target--------")
+-- for k, v in pairs(getmetatable(target)) do
+--   print(k, v)
+-- end
+-- print("----------target--------")
+
+-- print("OnBuild:"..tostring((prod and (not prod.components.inventoryitem or prod.components.container))))
+--  for k, v in pairs(prod.components) do
+--     print(k, v)
+--   end
+-- print("OnBuild:")

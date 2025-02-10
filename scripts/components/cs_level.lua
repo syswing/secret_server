@@ -113,13 +113,18 @@ end
 
 function LevelSystem:AddExp(exp)
   self.current_exp = self.current_exp + exp
-  local targetLevel = self:GetLevelWithExp(self.current_exp)
   self.inst.Label:SetFont(DEFAULTFONT)
   self.inst.Label:SetWorldOffset(0, 2, 0)
+  
   self.inst.Label:SetColour(1, 0.5, 0, 1)
   self.inst.Label:SetFontSize(14)
+  local targetLevel = self:GetLevelWithExp(self.current_exp)
+  if (targetLevel > self.current_level) then
+    self:UpLevel()
+  end
   local s_target = START_LEVEL_EXP + (targetLevel) * LEVEL_INCREASE
-  local current_level_exp = self.current_exp - targetLevel / 2 * (START_LEVEL_EXP + s_target)
+  local current_level_exp = self.current_exp - targetLevel / 2 * (START_LEVEL_EXP + s_target)  
+  print('击杀信息：'..targetLevel..'/'..self.current_exp..'/'..START_LEVEL_EXP..'/'..s_target) -- 23/49028/450/3900	
   self.inst.Label:SetText("经验增加：" .. exp .. "\n" .. "升级经验：" .. current_level_exp .. "/" .. s_target)
   self.inst.Label:Enable(true)
   TheWorld:DoTaskInTime(
@@ -128,10 +133,6 @@ function LevelSystem:AddExp(exp)
       self.inst.Label:Enable(false)
     end
   )
-
-  if (targetLevel > self.current_level) then
-    self:UpLevel()
-  end
 end
 
 function LevelSystem:DecreaseExp(exp)
